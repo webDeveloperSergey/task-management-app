@@ -1,0 +1,10 @@
+.myTextarea {
+  border: 1px solid #9EA5B8;
+  border-radius: 10px;
+  background: #FAFAFC;
+  font-size: 16px;
+  padding: 12px 30px;
+  width: 100%;
+  outline: none;
+  font-family: 'Nunito', sans-serif;
+}

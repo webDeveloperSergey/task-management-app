@@ -1,0 +1,4 @@
+.TaskListWrap {
+  display: flex;
+  flex-direction: column;
+}

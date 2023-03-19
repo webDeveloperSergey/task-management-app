@@ -1,0 +1,16 @@
+.WorkWithTask {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.searchWrap {
+  position: relative;
+  margin-right: 35px;
+}
+
+.searchIc {
+  position: absolute;
+  right: 26px;
+  top: 12px;
+}

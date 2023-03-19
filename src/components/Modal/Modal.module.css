@@ -1,0 +1,31 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.42);
+  z-index: 5;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  width: 600px;
+  min-height: 400px;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px rgba(11, 31, 77, 0.12);
+  border-radius: 5px;
+  padding: 30px 0;
+}
+
+.closeIc {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}

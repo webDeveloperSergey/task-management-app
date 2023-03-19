@@ -1,0 +1,15 @@
+.CreateTaskWrap {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.CreateTaskItem {
+  margin-bottom: 15px;
+}
+
+.CreateTaskItem:last-child {
+  margin-top: 30px;
+  margin-bottom: 0;
+}

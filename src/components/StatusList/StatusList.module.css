@@ -1,0 +1,15 @@
+.StatusListTitleWrap {
+  display: grid;
+  grid-template-columns: 120px 600px 120px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border-bottom: 1px solid #CED2DB;
+  padding-left: 20px;
+  margin-bottom: 33px;
+}
+
+.StatusListTitle {
+  font-weight: 400;
+  font-size: 18px;
+  color: #3C4C70;
+}

@@ -1,0 +1,78 @@
+.main-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 60px;
+  /* border: 2px solid red; */
+  padding-top: 30px;
+}
+
+.green-btn {
+  background: #6BC2BB;
+  border: 1px solid #6BC2BB;
+}
+
+.green-btn:hover {
+  border: 1px solid #6BC2BB;
+  background: transparent;
+  color: #6BC2BB;
+}
+
+.activeBtn {
+  background-color: #4070F4;
+  opacity: 0.3;
+  transition: all .3s;
+}
+
+.inprogressBtn {
+  background-color: #FFAD0D;
+  opacity: 0.3;
+  margin: 0 20px;
+  transition: all .3s;
+}
+
+.urgentBtn {
+  background-color: #F03D3D;
+  opacity: 0.3;
+  transition: all .3s;
+}
+
+.active-status {
+  background: rgba(64, 112, 244, 0.2);
+  border: 1px solid #4070F4;
+  color: #4070F4;
+}
+
+.inprogress-status {
+  background: rgba(255, 173, 13, 0.2);
+  border: 1px solid #FFAD0D;
+  color: #FFAD0D;
+}
+
+.urgent-status {
+  background: rgba(240, 61, 61, 0.2);
+  border: 1px solid #F03D3D;
+  color: #F03D3D;
+}
+
+.done-status {
+  background: rgba(11, 176, 123, 0.2);
+  border: 1px solid #0BB07B;
+  color: #0BB07B;
+}
+
+
+.activeBtn:hover {
+  opacity: 1;
+}
+
+.inprogressBtn:hover {
+  opacity: 1;
+}
+
+.urgentBtn:hover {
+  opacity: 1;
+}
+
+.btn-vis {
+  opacity: 1;
+}
